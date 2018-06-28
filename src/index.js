@@ -21,13 +21,6 @@ class App extends Component {
     name: 'Angular',
   }
 
-  constructor() {
-    super();
-    this.state = {
-      name: this.state.name,
-    };
-  }
-
   render() {
     return (
       <AppContext.Provider value={{

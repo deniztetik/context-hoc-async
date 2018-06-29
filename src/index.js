@@ -17,10 +17,6 @@ export function withContext(Component) {
 }
 
 class App extends Component {
-  state = {
-    name: 'Angular',
-  }
-
   render() {
     return (
       <AppContext.Provider value={{}}>
